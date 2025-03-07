@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ContriMoney - Simplify Group Expenses
 
-## Getting Started
+<div align="center">
+  <img src="public/icon.svg" alt="ContriMoney Logo" width="100"/>
+  <p>Split expenses with friends and family effortlessly</p>
+</div>
 
-First, run the development server:
+## App Preview
 
+<div align="center">
+  <img src="/app/images/Homepage.png" alt="Home Page" width="600"/>
+</div>
+
+## Features
+
+### Group Expense Management
+<img src="/app/images/Group expense.PNG" alt="Group and their expenses" width="400" align="right"/>
+
+- Create multiple expense groups
+- Add and manage group members
+- Track shared expenses
+- Automatic expense splitting
+- Real-time balance calculations
+
+### Smart Dashboard
+<img src="/app/images/Add expense.PNG" alt="Add Expense" width="400" align="right"/>
+
+- View spending patterns
+- Track outstanding balances
+- See who owes who
+- Monthly expense summaries
+- Export expense reports
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, TailwindCSS
+- **Authentication**: Clerk
+- **Database**: PostgreSQL (NeonDB)
+- **UI Components**: ShadcnUI
+- **Icons**: Lucide Icons
+
+## Quick Start
+
+1. **Clone and Install**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/contrimoney.git
+cd contrimoney
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Set up Environment Variables**
+```bash
+# Create .env.local and add your credentials
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+DATABASE_URL=your_database_url
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run Development Mode**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit [http://localhost:3000](http://localhost:3000) to start using ContriMoney!
 
-## Learn More
+## More Snapshots
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
+  <img src="/app/images/Auth management.PNG" alt="User based dashboard" width="200"/>
+  <img src="/app/images/Auth-clerk-manage.PNG" alt="Auth clerk management" width="200"/>
+  <img src="/app/images/NeonDb Setup.png" alt="Database table" width="200"/>
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Security
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Secure authentication with Clerk
+- Encrypted data transmission
+- Regular security updates
+- GDPR compliant
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
