@@ -78,7 +78,7 @@ Visit [http://localhost:3000](http://localhost:3000) to start using ContriMoney!
 <div align="center">
   <img src="/app/images/Auth management.PNG" alt="User based dashboard" width="200"/>
   <img src="/app/images/Auth-clerk-manage.PNG" alt="Auth clerk management" width="200"/>
-  <img src="/app/images/NeonDb Setup.png" alt="Database table" width="200"/>
+  <img src="/app/images/NeonDb Setup.PNG" alt="Database table" width="200"/>
 </div>
 
 ## Security
