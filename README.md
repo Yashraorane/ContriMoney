@@ -22,6 +22,10 @@
 - Automatic expense splitting
 - Real-time balance calculations
 
+<br clear="right"/>
+<br/>
+<br/>
+
 ### Smart Dashboard
 <img src="/app/images/Add expense.PNG" alt="Add Expense" width="400" align="right"/>
 
