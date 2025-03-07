@@ -35,6 +35,12 @@
 - Monthly expense summaries
 - Export expense reports
 
+
+<br clear="right"/>
+<br/>
+<br/>
+
+
 ## Tech Stack
 
 - **Frontend**: Next.js 14, TypeScript, TailwindCSS
